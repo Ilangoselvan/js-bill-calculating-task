@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="js script">
+	<meta name="keywords" content="html,javascript">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>js-bill-calculating-task</title>
+	<style>
+		fieldset{
+		border:3px solid black;
+		width:300px;
+		text-align:center;
+		background-color:pink;
+		}
+		form{
+		width:25%;
+		margin:auto;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<fieldset>
+	<caption>Bill Payment</caption>
+	<label for="ba">Bill Amount</label><br><br>
+	<input type="text" id="ba"><br><br>
+	<label for="tp">Tips in %</label><br><br>
+	<input type="text" id="tp"><br><br>
+	<label for="tr">Tips Rs.</label><br><br>
+	<input type="text" id="tr" disabled><br><br>
+	<label for="ta">Total Amount</label><br><br>
+	<input type="text" id="ta" disabled><br><br>
+	<button id="but" onclick="calculate()">Calculate</button>
+	</fieldset>
+	<p>Your Bill Amount Rs.</p>
+	
+	
+
+
+<script src="main.js"></script>
+</body>
+</html>
